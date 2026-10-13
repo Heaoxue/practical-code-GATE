@@ -120,7 +120,6 @@ train$hp=ifelse(train$hp == 1, 1, 0)
 test$hp=ifelse(test$hp == 1, 1, 0)
 wai$hp=ifelse(wai$hp == 1, 1, 0)
 qz$hp=ifelse(qz$hp == 1, 1, 0)
-####
 trainx=as.matrix(train[,-1])
 trainy=train[,1]
 testx=as.matrix(test[,-1])
