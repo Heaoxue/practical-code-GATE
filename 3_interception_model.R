@@ -7,7 +7,6 @@ library(stringr)
 library(diagram)
 library(ggalluvial)
 library(cowplot)
-
 compliance = 1
 #iso_join_seer <- read_excel("D:/260408GC/China_Data.xlsx",sheet = 2)
 load("Interception.RData")
